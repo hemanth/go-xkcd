@@ -12,7 +12,7 @@ $ go get github.com/hemanth/go-xkcd
 ```go
 package main
 
-import . "github.com/heman"
+import . "github.com/hemanth/go-xkcd"
 import "fmt"
 import "encoding/json"
 
