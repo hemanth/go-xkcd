@@ -27,6 +27,17 @@ func main () {
 }
 ```
 
+## web_xkcd.go
+Web Server to render random comics from XKCD on a TCP network address, with Cross Origin Resource Sharing enabled.
+
+### Run
+
+```
+$ go run web_xkcd.go
+```
+Then browse to http://localhost:3000 to view the rendered json.
+Edit the listening address and port in the server code, as desired.
+
 ## License
 
 MIT © [Hemanth.HM](http://h3manth.com)
